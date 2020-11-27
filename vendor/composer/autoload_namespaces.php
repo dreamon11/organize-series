@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Pimple' => array($vendorDir . '/pimple/pimple/src'),
-    'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src'),
 );

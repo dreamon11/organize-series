@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'OrganizeSeries\\' => array($baseDir . '/src'),
+    'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
 );

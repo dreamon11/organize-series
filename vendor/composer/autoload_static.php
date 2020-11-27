@@ -15,6 +15,10 @@ class ComposerStaticInit79ce04ec2215cbb374192f5c0ed11920
         array (
             'OrganizeSeries\\' => 15,
         ),
+        'C' => 
+        array (
+            'Composer\\Installers\\' => 20,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -26,6 +30,10 @@ class ComposerStaticInit79ce04ec2215cbb374192f5c0ed11920
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+        'Composer\\Installers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -34,13 +42,6 @@ class ComposerStaticInit79ce04ec2215cbb374192f5c0ed11920
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/src',
-            ),
-        ),
-        'C' => 
-        array (
-            'Composer\\Installers\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/composer/installers/src',
             ),
         ),
     );
